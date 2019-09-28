@@ -9,6 +9,7 @@ public class ThreadDemo2 {
         Thread t2 = new Thread(mt2,"t2");
         t1.start();
         t2.start();
+        System.out.println("------------");
 
     }
 }
